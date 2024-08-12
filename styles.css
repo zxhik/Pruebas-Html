@@ -14,6 +14,18 @@ body {
     width: 200px;
   }
   
+  .cards{
+    border: 2px black solid;
+    width: fit-content;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 15%;
+    transition: 1s;
+  }
+
+  .cards:hover{
+    background-color: greenyellow;
+  }
+
   #principal{
     font-size: 3em;
   }
@@ -22,4 +34,5 @@ body {
     border: 2px solid black;
     width: 65vw;
     margin: auto;
+    padding: 1em;
   }
