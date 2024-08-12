@@ -12,6 +12,7 @@ body {
 
   .logo{
     width: 200px;
+    height: 200px;
   }
   
   .cards{
@@ -20,6 +21,10 @@ body {
     padding: 0.5em 1em 0.5em 1em;
     border-radius: 15%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
   }
 
   .cards:hover{
@@ -35,4 +40,17 @@ body {
     width: 65vw;
     margin: auto;
     padding: 1em;
+  }
+
+  #cards-container{
+    background-color: blue;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
